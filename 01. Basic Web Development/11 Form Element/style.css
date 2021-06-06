@@ -1,0 +1,50 @@
+body {
+    background: #ddd;
+}
+
+.warp {
+    background: #fff;
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+    border: 1px solid #ddd;
+    width: 760px;
+    padding: 15px;
+}
+
+input[type="submit"] {
+    background: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+}
+
+.mainmenu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: #fff;
+}
+
+.mainmenu {
+    background: black;
+    text-align: center;
+}
+
+.mainmenu ul li a:hover {
+    color: #ddd;
+}

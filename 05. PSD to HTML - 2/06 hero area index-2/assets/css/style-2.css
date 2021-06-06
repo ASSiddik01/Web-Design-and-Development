@@ -1,0 +1,23 @@
+
+/*CSS for Hera Area html-2 Start*/
+.hero-area{
+	background-image: url('../img/hero-area-2.png');
+	background-color: #3295F5;
+}
+.boxed-btn{
+	background-color: #24d5a1;
+}
+.hero-area {
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.8;
+    padding: 80px 0;
+}
+
+.hero-area h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 90px;
+}
+/*CSS for Hera Area html-2 End*/

@@ -1,0 +1,50 @@
+body{
+	background-image: url('assets/img/bg.jpg');
+	background-attachment: fixed;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 50px;
+}
+.columns{
+	overflow: hidden;
+}
+.single-column{
+	width: 32.33%;
+	float: left;
+	padding-right: 1%;
+}
+.single-column-2{
+	width: 49%;
+	float: left;
+	padding-right: 1%;
+}
+.mainmenu {
+    background: red;
+    text-align: center;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a:hover {
+    background: #333;
+}
+
+.mainmenu ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.big-icon {
+    font-size: 100px;
+    color: red;
+}

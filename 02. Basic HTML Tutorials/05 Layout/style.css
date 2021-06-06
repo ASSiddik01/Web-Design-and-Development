@@ -1,0 +1,103 @@
+*{margin:0;padding: 0;}
+body{    background: url(assets/img/bg.jpg) #ddd;font-family: Arial;font-size: 14px;line-height: 20px;color: #666;}
+.fix{
+    overflow: hidden;
+}
+.main {
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+    background: #ddd;
+}
+
+.fix.slider {
+    height: 209px;
+    background: url(assets/img/banner.jpg) no-repeat;
+    background-color: white;
+}
+
+img {
+    height: 100px;
+}
+
+.slider-text {
+    margin-top: 55px;
+    margin-left: 55px;
+    color: #333;
+    line-height: 35px;
+}
+
+
+.maincontent {
+    margin-top: 25px;
+}
+
+.fix.slidbar {
+    float: left;
+    width: 220px;
+    background: #ddd;
+    margin-right: 30px;
+}
+
+.fix.content {
+    width: 710px;
+}
+
+h1 {}
+
+.fix.slidbar h1 {
+    color: #000;
+    margin: 15px;
+}
+
+.fix.slidbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fix.slidbar ul li {}
+
+.fix.slidbar ul li a {
+    color: #00C9E4;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid;
+}
+
+.fix.slidbar ul li a:hover {
+    background: #fff;
+    color: #333;
+    transition: .3s;
+}
+
+.fix.content p {
+    margin-left: 15px;
+}
+
+.fix.footer {
+    color: #fff;
+    background: #333;
+    padding: 10px 0;
+}
+
+.slider-text p {
+    color: #fff;
+}
+
+.fix.content h1 {
+    color: #000;
+    background: #00C9E4;
+    padding: 15px;
+}
+
+.fix.footer:hover {
+    color: #00C9E4;
+    transition: 1s;
+}
+
+.fix.header {
+    text-align: center;
+    background: #fff;
+}

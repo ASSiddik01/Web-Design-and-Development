@@ -1,0 +1,22 @@
+*{margin: 0;padding:0;}
+body{background:url(Photo/bg.jpg) repeat fixed #ddd;font-family: Arial;font-size: 14px;line-height: 20px;color: #666;}
+.fix{overflow: hidden;}
+.main{width: 960px;margin: 20px auto;padding: 0px; display:block;background: #fff }
+.header{}
+.header img{width: 200px;height: 100px;float: right;}
+
+.slider{width: 960px;height: 200px; background:url(Photo/banner.jpg) no-repeat}
+.slider-text {margin-top: 60px;margin-left: 100px;}
+.slider-text h1{color:#0B65C4;font-size: 38px;line-height: 45px;}
+.slider-text h2{color: white;}
+.slider-text p{}
+.maincontent {margin-top: 25px;}
+.slidbar {float: left;margin-right: 20px;margin: 10px; background: #B3C1C2;width: 260px;padding: 20px;}
+.slidbar h1{margin-bottom: 15px;}
+.slidbar ul{margin: 0;padding: 0;list-style: none;}
+.slidbar ul li{padding: 5px;border-bottom: 2px solid#A6E22C}
+.slidbar ul li a{display: block; text-decoration: none; color:#0D0102; }
+.slidbar ul li a:hover{background: #FFFFFF}
+.content {width: 600px;}
+.content h1{margin-bottom: 15px;padding: 5px;}
+.footer  {margin-top: 10px; background: #282923;color: red}

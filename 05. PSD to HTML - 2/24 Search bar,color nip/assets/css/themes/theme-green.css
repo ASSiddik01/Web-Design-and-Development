@@ -1,0 +1,43 @@
+
+/*===================
+Hover CSS
+===================*/
+.single-service-box:hover, 
+.single-pricing-box:hover .pricing-heading{
+    border-color: #228B22;
+}
+.single-service-box:hover h3,
+.single-service-box:hover .service-readmore-btn,
+.single-service-box:hover .service-icon {
+    color: #228B22;
+}
+.case-study-wrapper {
+    background: #228B22;
+}
+p.pricing-value {
+	color: #228B22;
+}
+
+.logo a:hover {
+	opacity: .8;
+}
+ a.boxed-btn:hover, input[type="submit"]:hover {
+    background-color: #333;
+	color: #fff;
+}
+.footer-area a:hover {
+    background-color: #228B22;
+	color: black;
+}
+.boxed-btn, input[type=submit], button[type=submit] {
+    background: #228B22;
+	background-color: #228B22;
+    color: #fff;
+}
+.mainmenu li:hover > a {
+    color: #228B22;
+}
+.mainmenu li:hover li:hover > a {
+	background-color: #228B22;
+	color: #fff;
+}

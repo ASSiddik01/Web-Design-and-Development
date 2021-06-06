@@ -1,0 +1,248 @@
+
+/*CSS for Hera Area html-2 Start*/
+.hero-area{
+	background-image: url('../img/hero-area-2.png');
+	background-color: #3295F5;
+}
+.boxed-btn,input[type="submit"],button[type="submit"]{
+	background-color: #24d5a1;
+}
+.hero-area {
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.8;
+    padding: 80px 0;
+}
+
+.hero-area h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 90px;
+}
+/*CSS for Hera Area html-2 End*/
+
+
+
+/*CSS for Awasone Service Area html-2 Start*/
+h3 {
+    font-size: 22px;
+}
+
+.about-text h3 {
+    margin-bottom: 20px;
+}
+
+.about-text .boxed-btn {
+    margin-top: 20px;
+}
+
+.about-text {
+    margin-top: 50px;
+}
+
+.padding-top-0 {
+    padding-top: 0;
+}
+
+.single-service-box-2 {
+    display: block;
+    height: 250px;
+    background: #fbfbfb;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.single-service-box-2:hover{
+background: #07bbfd;
+background: -moz-linear-gradient(top,  #07bbfd 0%, #4382ec 100%);
+background: -webkit-linear-gradient(top,  #07bbfd 0%,#4382ec 100%);
+background: linear-gradient(to bottom,  #07bbfd 0%,#4382ec 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07bbfd', endColorstr='#4382ec',GradientType=0 );
+}
+
+.single-service-box-2:hover i.fa,.single-service-box-2:hover h3 {
+    color: #fff;
+}
+
+.single-service-box-2 i.fa {
+    transition: .3s;
+}
+
+
+.service-box-teblecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.service-icon.style-2 {
+    color: #249FF5;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/*CSS for Awasone Service Area html-2 End*/
+
+
+/*CSS for  Service Area html-3 Start*/
+.service-number {
+    color: #dcdcdc;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+    display: inline-block;
+    padding-top: 16px;
+}
+
+.single-service-box:hover {
+    border-color: #24dfa1;
+}
+
+.single-service-box:hover a.service-readmore-btn, .single-service-box:hover h3, .single-service-box:hover .service-icon {
+    color: #24dfa1;
+}
+
+.single-service-box {
+    margin-bottom: 0;
+}
+/*CSS for  Service Area html-3 End*/
+
+
+/*CSS for  Case Study Area html-3 Start*/
+
+.owl-dots div.active {
+    background-color: #24d5a1;
+}
+/*CSS for  Case Study Area html-3 End*/
+
+
+/*CSS for  Blog Area html-3 Start*/
+
+.single-blog-box {
+    color: #999;
+    display: block;
+    font-weight: 300;
+    box-shadow: 0 0 5px #f5f5f5;
+    padding: 30px;
+    transition: .3s;
+}
+
+body {line-height: 1.7;}
+
+.single-blog-box p:last-child {
+    margin: 0;
+}
+
+.single-blog-box h4 {
+    line-height: 1.6;
+}
+
+.blog-meta {
+    font-size: 14px;
+}
+
+.blog-thumb-wrapper {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-right: -30px;
+}
+
+.single-blog-box:hover {
+    color: #999;
+    opacity: .9;
+}
+/*CSS for  Blog Area html-3 End*/
+
+/*CSS for  Footer Area html-3 Start*/
+.social-links.html-3 a {
+    color: #373737;
+    display: inline-block;
+    padding: 12px;
+    padding-right: 0;
+    padding-left: 20px;
+}
+/*CSS for  Footer Area html-3 End*/
+
+/*CSS for  Header Area html-4 Start*/
+body, html, .homepage-hero-area-4, .single-slide-item-2{
+    height: 100%
+
+}
+.slide-item-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-weight: 300;
+}
+
+.slide-item-wrapper h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+    line-height: 60px;
+}
+.website-check-form {
+    margin-top: 30px;
+}
+
+.website-check-form input {
+    background-color: #0C3A4C;
+    border-color: #0C3A4C;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background-color: #24d5a1;
+}
+/*CSS for  Header Area html-4 End*/
+
+/*CSS For Image Gallery & Traffic Section Area html-4 Start*/
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+body {
+    font-weight: 300;
+    line-height: 1.6;
+}
+/*CSS For Image Gallery & Traffic Section Area html-4 End*/
+
+/*CSS For Services Section Area html-4 Start*/
+
+.service-icon {
+    color: #24d5a1;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+/*CSS For Services Section Area html-4 End*/
+
+/*CSS For CTA Area html-4 Start*/
+.video-play-btn {
+    display: inline-block;
+    background: #06D6A0;
+    color: #fff;
+    height: 70px;
+    width: 70px;
+    line-height: 64px;
+    border-radius: 50%;
+    font-size: 35px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+/*CSS For CTA Area html-4 End*/
+
+/*CSS For Key Features Area html-4 Start*/
+/*CSS For Key Features Area html-4 End*/
+
+
+/*CSS For Testimonial Area html-4 Start*/
+
+/*CSS For Testimonial Area html-4 End*/

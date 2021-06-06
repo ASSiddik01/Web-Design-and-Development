@@ -1,0 +1,248 @@
+/*		Medium Layout: 1280px.  	*/
+@media only screen and (min-width: 992px) and (max-width: 2500px) {
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    font-size: 14px;
+    padding: 13px 7px;
+}
+.single-service-box {
+    padding: 10px;
+}
+body {
+    font-size: 14px;
+}
+.hero-area h1 {
+    font-size: 38px;
+}
+.single-service-box-2 {
+    height: 220px;
+}
+.pdt-50 {
+    padding-top: 30px;
+}
+.blog-thumb-wrapper {
+    height: 200px;
+}
+.pricing-content {
+    font-size: 15px;
+    line-height: 1.6;
+}
+.boxed-case-study, .single-case-study {
+    height: 200px;
+    margin: 14px 0;
+}
+.single-blog-box {
+    padding: 20px;
+}
+.blog-thumb-wrapper {
+    margin-left: -20px;
+    margin-top: -20px;
+    margin-right: -20px;
+}
+.container.blog {
+    width: 1048px;
+}
+
+}
+		
+/*		Tablet Layout: 768px.  		*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slicknav_menu{
+    display: block;
+}
+.mainmenu {
+    display: none;
+}
+.hero-area .text-right {
+	text-align: left;
+}
+.header-area .text-right, .cta-area .text-right, .cta-area {
+    text-align: center;
+}
+.hero-area {
+    padding: 50px 0;
+}
+.website-chacker-from {
+    margin-bottom: 30px;
+}
+.col-sm-6 .single-service-box {
+    height: 320px;
+}
+.pdt-50.mobile-padding-fix {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.mobile-text-left {
+    text-align: left;
+}
+.section-padding {
+    padding: 75px 0px;
+}
+.cta-area .boxed-btn {
+    margin-top: 20px;
+}
+.mobile-olny-margin{
+	height: 20px;
+}
+.breadcrumb-area {
+    font-size: 14px;
+    padding: 80px;
+}
+.breadcrumb-area h2 {
+    margin-bottom: 10px;
+}
+.hero-area h1 {
+    font-size: 40px;
+    margin-top: 0;
+    max-width: inherit;
+}
+.hero-from {
+    margin-top: 50px;
+}
+.footer-area-2 {
+    text-align: center;
+}
+.copyright-area-2, .copyright-area-2 .text-right {
+    text-align: center;
+}
+img.absolute-img-gallery-1 {
+    position: relative;
+    top: auto;
+}
+.tile-gallary.text-right {
+    text-align: left;
+}
+.service-section-2:before {
+    display:none;
+}
+.service-section-2:after {
+    box-shadow: none;
+    background: white;
+}
+.service-section-2:after {
+	width: 100%;
+}
+.service-box-2 {
+    margin-bottom: 50px;
+    min-height: inherit;
+}
+
+
+
+
+
+}
+	
+
+/*		Tablet & Mobile Layout: 768px.  		*/
+
+@media only screen and (max-width: 991px) {
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slicknav_menu{
+    display: block;
+}
+.mainmenu {
+    display: none;
+}
+.hero-area .text-right {
+    text-align: left;
+}
+.header-area .text-right, .cta-area .text-right, .cta-area {
+    text-align: center;
+}
+.hero-area {
+    padding: 50px 0;
+}
+.website-chacker-from {
+    margin-bottom: 30px;
+}
+.col-sm-6 .single-service-box {
+    height: 320px;
+}
+.pdt-50.mobile-padding-fix {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.mobile-text-left {
+    text-align: left;
+}
+.section-padding {
+    padding: 75px 0px;
+}
+.cta-area .boxed-btn {
+    margin-top: 20px;
+}
+.mobile-olny-margin{
+    height: 20px;
+}
+.breadcrumb-area {
+    font-size: 14px;
+    padding: 80px;
+}
+.breadcrumb-area h2 {
+    margin-bottom: 10px;
+}
+.hero-area h1 {
+    font-size: 40px;
+    margin-top: 0;
+    max-width: inherit;
+}
+.hero-from {
+    margin-top: 50px;
+}
+.footer-area-2 {
+    text-align: center;
+}
+.copyright-area-2, .copyright-area-2 .text-right {
+    text-align: center;
+}
+img.absolute-img-gallery-1 {
+    position: relative;
+    top: auto;
+}
+.tile-gallary.text-right {
+    text-align: left;
+}
+.service-section-2:before {
+    display:none;
+}
+.service-section-2:after {
+    box-shadow: none;
+    background: white;
+}
+.service-section-2:after {
+    width: 100%;
+}
+.service-box-2 {
+    margin-bottom: 50px;
+    min-height: inherit;
+}
+
+
+
+}
+
+
+/*		Mobile Layout: 320px.   	*/
+
+@media only screen and (max-width: 767px) {
+.footer-area ul {
+    margin-bottom: 50px;
+}
+
+
+}
+
+
+/*		Wide Mobile Layout: 480px.  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+

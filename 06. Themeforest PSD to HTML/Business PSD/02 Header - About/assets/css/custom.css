@@ -1,0 +1,310 @@
+/*=======================
+
+Master Stylesheet
+------------------
+
+Tamplate Name :
+Author :
+Author URL :
+Description :
+Version :
+Tags :
+
+======================*/
+
+/*#####################
+Table of Content
+-----------------
+
+01.Typography CSS
+02.Section Heading CSS
+03.Button CSS
+04.Menu CSS
+05.Bannar CSS
+06.Service CSS
+07.About CSS
+08.Feature CSS
+09.Info CSS
+10.Portfolio CSS
+11.About More CSS
+12.Counter CSS
+13.Testimonial CSS
+14.Clients CSS
+16.Contact CSS
+17.Contact Form CSS
+18.Footer CSS
+19.Copyright CSS
+20.
+21.
+#######################*/
+
+/*============================================
+----------------Typography CSS----------------
+============================================*/
+
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	line-height: 23px;
+	color: #787878;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-size: 14px;
+	line-height: 23px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	text-transform: uppercase;
+	color: #000;
+}
+
+h2{
+	font-size: 30px;
+	line-height: 26px;
+}
+
+h4{
+	font-size: 15px;
+	line-height: 26px;
+}
+
+h6{
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.section-padding{
+	padding: 120px 0;
+}
+
+
+/*============================================
+-------------Section Heading CSS--------------
+============================================*/
+
+.section-heading h6 {
+	color: #aaa;
+	letter-spacing: 1px;
+}
+
+.section-heading {
+    margin-bottom: 60px;
+}
+
+.section-heading h2 {
+	margin: 20px 0;
+}
+
+.section-heading p {
+    margin-top: 30px;
+}
+
+.seperator {
+	width: 60px;
+	height: 2px;
+	background: #1DBBE6;
+	margin: 20px auto;
+	display: inline-block;
+}
+
+
+/*============================================
+--------------Button Heading CSS--------------
+============================================*/
+
+.btn{
+	border-radius: 5px;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	padding: 14px 40px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.btn-main{
+	background: #1DBBE6;
+	border-color: #1DBBE6;
+	color: #fff
+}
+
+.btn-gray{
+	background: transparent;
+	border-color: #fff;
+	color: #000;
+}
+
+
+/*============================================
+-------------------Menu CSS-------------------
+============================================*/
+
+.navbar-nav li a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+
+.navbar-fixed-top {
+    background: #000;
+    opacity: 0.7;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+    color: #1DBBE6;
+}
+
+
+/*============================================
+------------------Bannar CSS------------------
+============================================*/
+
+#section-banner {
+    background-image: url('../img/banner.jpg');
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    padding: 165px 0;
+}
+
+.banner-content h6, .banner-content h1, .banner-content p {
+	color: #fff;
+}
+
+.banner-content h6 {
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.banner-content h1 {
+	font-size: 70px;
+}
+
+.banner-content p {
+    width: 50%;
+    margin: 0 auto 35px;
+}
+
+/*============================================
+------------------Service CSS-----------------
+============================================*/
+
+.single-service-box h4 {
+    margin: 18px 0 20px 0;
+}
+
+/*============================================
+-------------------About CSS------------------
+============================================*/
+
+.about-bg-1 {
+    background-image: url(../img/about-bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    content: '';
+}
+
+.about-bg-2 {
+    background-image: url(../img/about-bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    content: '';
+}
+
+.about-box h6 {
+    color: #AAA;
+    letter-spacing: 1px;
+}
+
+.about-box h2 {
+    margin: 20px 0;
+}
+
+.about-box p {
+    margin: 0 0 30px;
+}
+
+.about-section {
+    background: #f8f8f8;
+    padding: 80px;
+    position: relative;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================================
+-------------------About CSS------------------
+============================================*/
+
+/*#####################
+Table of Content
+-----------------
+
+01.Typography CSS
+02.Section Heading CSS
+03.Button CSS
+04.Menu CSS
+05.Bannar CSS
+06.Service CSS
+07.About CSS
+08.Feature CSS
+09.Info CSS
+10.Portfolio CSS
+11.About More CSS
+12.Counter CSS
+13.Testimonial CSS
+14.Clients CSS
+16.Contact CSS
+17.Contact Form CSS
+18.Footer CSS
+19.Copyright CSS
+20.
+21.
+#######################*/

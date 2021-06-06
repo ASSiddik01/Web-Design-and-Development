@@ -1,0 +1,73 @@
+/*		Medium Layout: 1280px.  	*/
+@media only screen and (min-width: 992px) and (max-width: 2500px) {
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    font-size: 14px;
+    padding: 13px 7px;
+}
+.single-service-box {
+    padding: 10px;
+}
+body {
+    font-size: 14px;
+}
+.hero-area h1 {
+    font-size: 38px;
+}
+.single-service-box-2 {
+    height: 220px;
+}
+.pdt-50 {
+    padding-top: 30px;
+}
+.blog-thumb-wrapper {
+    height: 200px;
+}
+.pricing-content {
+    font-size: 15px;
+    line-height: 1.6;
+}
+.boxed-case-study, .single-case-study {
+    height: 200px;
+    margin: 14px 0;
+}
+.single-blog-box {
+    padding: 20px;
+}
+.blog-thumb-wrapper {
+    margin-left: -20px;
+    margin-top: -20px;
+    margin-right: -20px;
+}
+.container.blog {
+    width: 1048px;
+}
+
+}
+		
+/*		Tablet Layout: 768px.  		*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+	
+
+/*		Tablet & Mobile Layout: 768px.  		*/
+
+@media only screen and (max-width: 991px) {
+	
+}
+
+
+/*		Mobile Layout: 320px.   	*/
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+/*		Wide Mobile Layout: 480px.  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+

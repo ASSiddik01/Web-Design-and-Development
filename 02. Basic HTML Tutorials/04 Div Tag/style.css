@@ -1,0 +1,27 @@
+.mainmenu {
+    background: #EEEEE7;
+    text-align: center;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+}
+
+.mainmenu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: #EEEEE7;
+    color: #000;
+    border-left: 1px solid#ddd;
+}
+
+.mainmenu ul li a:hover {
+    background: #fff;
+}

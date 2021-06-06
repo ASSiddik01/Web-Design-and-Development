@@ -1,0 +1,653 @@
+/*=======================
+
+Master Stylesheet
+------------------
+
+Tamplate Name :
+Author :
+Author URL :
+Description :
+Version :
+Tags :
+
+======================*/
+
+/*#####################
+----Table of Content---
+-----------------------
+
+01.Typography CSS
+02.Header Area CSS
+03.Hero Area CSS
+04.Season Area CSS
+05.Product Area CSS
+06.Product Promotion Area CSS
+07.Brands Area CSS
+08.Footer Area CSS
+09.......... CSS
+#######################*/
+
+/*============================================
+----------------Typography CSS----------------
+============================================*/
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-right: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus, input:focus, textarea:focus, button:focus, { 
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+    
+}
+
+body {
+    font-family: 'arial';
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+/*============================================
+---------------Header Area CSS----------------
+============================================*/
+.header-top a {
+    color: #5b4060;
+    padding: 15px;
+    display: inline-block;
+}
+
+.header-top {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-left li {
+    display: inline-block;
+}
+
+.header-top .menu-trigger {
+    display: none;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.search-trigger i {
+    padding-left: 10px;
+}
+
+
+/*============================================
+-----------------Hero Area CSS----------------
+============================================*/
+.homepage-slider-wrap {
+    background-image: url('../img/header-bg.jpg')
+}
+
+.homepage-slider-wrap {
+    background-color: #EBD7D0;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.single-slide-item {
+    position: relative;
+}
+
+.single-slide-item img {
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    width: 700px;
+    margin-left: -350px;
+}
+
+.single-item-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+
+.homepage-slider-wrap div {
+    height: 100%;
+}
+
+.single-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15%;
+    font-family: codelight;
+    font-size: 120px;
+    color: #E45189;
+    line-height: 100px;
+}
+
+.single-item-tablecell strong {
+    font-style: italic;
+}
+
+.single-item-tablecell p {font-weight: 500;text-transform: uppercase;}
+
+.slide-alternative-color {
+    color: #75B2C7;
+}
+
+.owl-carousel .owl-item .single-slide-item img {
+    width: auto;
+}
+
+.homepage-slider-wrap .owl-nav,.homepage-slider-wrap .owl-nav div {
+    height: 100%;
+}
+
+.homepage-slider-wrap .owl-nav div {position: absolute;font-size: 20px;color: #5B4060;left: 0;top: 50%;line-height: 40px;margin-top: -20px;transition: .3s;opacity: 0;}
+
+.homepage-slider-wrap .owl-nav div.owl-next {
+    left: auto;
+    right: 0;
+}
+
+.homepage-slider-wrap:hover .owl-nav div {
+    left: 5%;
+    opacity: 1;
+}
+
+.homepage-slider-wrap:hover .owl-nav div.owl-next {
+    left: auto;
+    right: 5%;
+}
+
+
+
+/*============================================
+----------------Season Area CSS---------------
+============================================*/
+
+.season-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.season-menu li {
+    float: left;
+    width: 30%;
+    background: #EDF2E9;
+    font-size: 50px;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.season-menu li a {
+    display: block;
+    padding: 170px 30px 30px;
+    text-align: right;
+    color: #5b4060;
+}
+
+.season-menu li:nth-child(2) a {
+    color: #E45189;
+}
+
+.season-menu li:nth-child(2) {
+    background-color: #F2E5E6;
+    font-weight: bold;
+}
+
+.season-menu li:nth-child(3) {
+    background-color: #F6F2E7;
+}
+
+.season-menu li:nth-child(4) {
+    background-color: #EDF4F7;
+    margin-left: -1px;
+}
+
+.season-menu li:nth-child(4) a {
+    text-align: left;
+}
+
+.season-menu li:nth-child(2),.season-menu li:nth-child(3) {
+    width: 20%;
+}
+
+.season-menu li:hover {
+    opacity: .6;
+}
+
+
+/*============================================
+----------------Product Area CSS--------------
+============================================*/
+.product-bd-1 {
+    background-image: url('../img/product-01.png')
+}
+
+.product-bd-2 {
+    background-image: url('../img/product-02.png')
+}
+
+.product-bd-3 {
+    background-image: url('../img/product-03.png')
+}
+
+.product-bd-4 {
+    background-image: url('../img/product-04.png')
+}
+
+.product-bd-5 {
+    background-image: url('../img/product-05.png')
+}
+
+.product-bd-6 {
+    background-image: url('../img/product-06.png')
+}
+
+.product-bd-7 {
+    background-image: url('../img/product-07.png')
+}
+
+.product-bd-8 {
+    background-image: url('../img/product-08.png')
+}
+
+.product-bd-9 {
+    background-image: url('../img/product-09.png')
+}
+
+.product-bd-10 {
+    background-image: url('../img/product-10.png')
+}
+.products-area {
+    padding-top: 100px;
+}
+
+.single-product-item {
+    background-position: center bottom;
+    width: 18%;
+    height: 300px;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    float: left;
+    background-repeat: no-repeat;
+    background-color: #F5EFF2;
+}
+
+.product-list {
+    margin-left: -2%;
+    overflow: hidden;
+}
+
+.single-product-item:nth-child(2) {
+    height: 620px;
+    width: 78%;
+    background-color: #f3eceb;
+}
+
+.single-product-item:nth-child(3) {
+    background-color: #f3f6f6;
+}
+
+.single-product-item:nth-child(4) {
+    background-color: #F2F0EB;
+    width: 56%;
+}
+
+.single-product-item:nth-child(5) {
+    background-color: #F8F5F5;
+}
+
+.single-product-item:nth-child(6) {
+    background-color: #F2F6F3;
+}
+
+.single-product-item:nth-child(7) {
+    background-color: #F2F0EB;
+}
+
+.single-product-item:nth-child(8) {
+    background-color: #e4e4e2;
+}
+
+.single-product-item:nth-child(9) {
+    background-color: #eef4fd;
+    width: 38%;
+}
+
+.single-product-item:nth-child(10) {
+    background-color: #f7e8e8;
+}
+
+.product-top-links a {
+    color: #BCAFBE;
+    display: inline-block;
+    padding: 4px;
+}
+
+.product-top-links {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.product-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: .3s;
+}
+
+.product-hover:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #72AFC7;
+    content: '';
+    z-index: -1;
+    opacity: .7;
+}
+
+.product-hover >a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    border: 2px solid;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    width: 90px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: -45px;
+    margin-top: -70px;
+    transition: .5s;
+}
+
+.product-bottom-info {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.product-bottom-info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.product-bottom-info span.product-price {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #E45189;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-color-box span {
+    display: inline-block;
+    border: 1px solid #D9D2DA;
+    height: 10px;
+    width: 10px;
+}
+
+.product-color-box {
+    border-left: 1px solid #918A92;
+    padding-left: 10px;
+}
+
+.product-color-box span.product-color-red {
+    background-color: red;
+    border: red;
+}
+
+.product-color-box span.product-color-green {
+    background-color: #9CE3E7;
+    border: #9CE3E7;
+}
+
+.product-bottom-info p {
+    margin: 0;
+}
+
+.single-product-item:hover .product-hover {
+    opacity: 1;
+}
+
+.single-product-item:hover .product-hover>a {
+    margin-top: -40px;
+}
+
+.single-product-item:hover .product-top-links {
+    z-index: 99;
+    position: relative;
+}
+
+.single-product-item:hover .product-top-links a {
+    color: #fff;
+}
+
+.load-more-product-btn {
+    display: block;
+    background: #FAF9FA;
+    color: #E5538A;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+/*============================================
+----------Product Promotion Area CSS----------
+============================================*/
+
+
+.product-promotion {
+    background: #F8F4F7;
+}
+
+.promo-bg {
+    background: #F5EFF0;
+}
+
+.promo-content {
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 70px;
+    line-height: 2;
+}
+
+.promo-title {
+    position: relative;
+    color: #E45189;
+    margin-bottom: 40px;
+}
+
+.promo-title h2 {
+    font-size: 36px;
+    margin: 0 0 5px;
+}
+
+.promo-title span.year-text {
+    position: absolute;
+    left: 40%;
+    top: 28px;
+    color: #56A6C3;
+    opacity: .2;
+    font-size: 110px;
+    line-height: 76px;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: #56A6C3;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.single-product-promotion img {
+    width: auto !important;
+}
+
+.product-promotion .owl-dots div {
+    height: 15px;
+    width: 15px;
+    background: #D2CCCF;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.product-promotion .owl-dots div.active {
+    background: #E5538A;
+}
+
+.product-promotion .owl-dots {
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    margin-top: -2%;
+}
+
+/*============================================
+----------------Brands Area CSS---------------
+============================================*/
+
+.brand-img {
+    margin-top: 100px;
+}
+
+
+/*============================================
+----------------Footer Area CSS---------------
+============================================*/
+
+.footer-area {
+    background-color: #F5F4F6;
+    margin-top: 30px;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    padding-right: 38px;
+}
+
+.footer-area, .footer-area a {
+    color: #929193;
+}
+
+.footer-menu {
+    margin-top: 20px;
+}
+
+.footer-area {
+    padding: 30px 0;
+}
+
+.social-links {
+    margin-bottom: 20px;
+    padding-right: 5px;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 120%;
+    padding-left: 15px;
+}
+
+input[type="text"] {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    min-width: 280px;
+}
+
+input[type="submit"] {
+    background: #E5538A;
+    border: none;
+    color: #fff;
+    padding: 11px 20px;
+    margin-left: -4px;
+}
+
+.social-links a:hover {
+    color: #E5538A;
+}

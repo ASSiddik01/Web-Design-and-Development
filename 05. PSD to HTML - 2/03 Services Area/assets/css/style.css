@@ -1,0 +1,166 @@
+/*Base CSS*/
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+/*CSS For Header Area Start*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-right: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus, input:focus, textarea:focus, button:focus, { 
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    font-size: 15px;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    position: relative;
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    color: #888;
+    padding: 12px 15px;
+}
+
+.boxed-btn, input[type="submit"],button[type="submit"] {
+    display: inline-block;
+    background: #EA4971;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 2px;
+    border: none;
+}
+/*CSS For Header Area End*/
+
+/*CSS For Hero Area Start*/
+
+
+.hero-area {
+    font-weight: 300;
+    padding: 150px 0;
+    border-bottom: 2px solid #F7F7F7;
+}
+
+.hero-area h1 {
+    font-size: 40px;
+    max-width: 440px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="tel"], textarea {
+    border: 2px solid #f0f0f0;
+    padding: 10px 15px;
+}
+
+input[type="submit"], button[type="submit"] {
+    padding: 12px 20px;
+    font-weight: 400;
+}
+
+.website-chacker-from {
+    margin-top: 30px;
+}
+
+.header-area {
+    padding: 20px 0;
+}
+/*CSS For Hero Area End*/
+
+/*CSS For Service Area Start*/
+.section-padding {
+    padding: 115px 0px;
+}
+
+.section-title {
+    margin-bottom: 90px;
+}
+
+.single-service-box {
+    border: 2px solid #fafafa;
+    padding: 25px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.service-icon {
+    font-size: 30px;
+    color: #3a1a1a;
+}
+
+.single-service-box h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.service-readmore-btn {
+    color: #373737;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.service-readmore-btn .zmdi {
+    padding-left: 6px;
+}
+
+.single-service-box:hover {
+	border-color: #EE466E;
+}
+
+.single-service-box:hover a.service-readmore-btn,.single-service-box:hover h3,.single-service-box:hover .service-icon {
+    color: #EE466E;
+}
+
+.pdt-50 {
+    padding-top: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.pdt-50 .boxed-btn {
+    margin-top: 20px;
+}
+/*CSS For Service Area End*/

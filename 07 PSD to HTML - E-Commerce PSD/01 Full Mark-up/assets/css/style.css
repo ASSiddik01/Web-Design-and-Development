@@ -1,0 +1,83 @@
+/*=======================
+
+Master Stylesheet
+------------------
+
+Tamplate Name :
+Author :
+Author URL :
+Description :
+Version :
+Tags :
+
+======================*/
+
+/*#####################
+----Table of Content---
+-----------------------
+
+01.Typography CSS
+02.......... CSS
+03.......... CSS
+04.......... CSS
+05.......... CSS
+06.......... CSS
+07.......... CSS
+08.......... CSS
+09.......... CSS
+10.......... CSS
+11.......... CSS
+12.......... CSS
+13.......... CSS
+14.......... CSS
+16.......... CSS
+17.......... CSS
+18.......... CSS
+19.......... CSS
+20.......... CSS
+#######################*/
+
+/*============================================
+----------------Typography CSS----------------
+============================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-right: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus, input:focus, textarea:focus, button:focus, { 
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+

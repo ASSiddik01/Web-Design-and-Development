@@ -1,0 +1,75 @@
+/*		Medium Layout: 1280px.  	*/
+@media only screen and (min-width: 992px) and (max-width: 2500px) {
+	
+.single-product-item {
+height: 250px;
+}
+
+.single-product-item:nth-child(2) {
+    height: 520px;
+}
+
+
+}
+		
+/*		Tablet Layout: 768px.  		*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.season-menu li {
+    font-size: 30px;
+}
+
+.season-menu li a {
+    padding: 130px 30px 30px;
+}
+
+.single-product-item {
+    width: 31.3333333%;
+   
+}
+
+.single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9) {
+    width: 64.66666%;
+}
+
+.promo-bg {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.promo-content {
+    padding-bottom: 20px;
+}
+
+.footer-area, .footer-area .text-right {
+    text-align: center;
+}
+
+.footer-menu ul li {
+    padding: 0 15px;
+}
+
+
+}
+	
+
+/*		Tablet & Mobile Layout: 768px.  		*/
+
+@media only screen and (max-width: 991px) {
+	
+}
+
+
+/*		Mobile Layout: 320px.   	*/
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+/*		Wide Mobile Layout: 480px.  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+

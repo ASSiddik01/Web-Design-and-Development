@@ -1,0 +1,301 @@
+/*=======================
+
+Master Stylesheet
+------------------
+
+Tamplate Name :
+Author :
+Author URL :
+Description :
+Version :
+Tags :
+
+======================*/
+
+/*#####################
+----Table of Content---
+-----------------------
+
+01.Typography CSS
+02.Header Area CSS
+03.Hero Area CSS
+04.Season Area CSS
+05.Product Area CSS
+06.Product Promotion Area CSS
+07.Brands Area CSS
+08.Footer Area CSS
+09.......... CSS
+#######################*/
+
+/*============================================
+----------------Typography CSS----------------
+============================================*/
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-right: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus, input:focus, textarea:focus, button:focus, { 
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+    
+}
+
+body {
+    font-family: 'arial';
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+/*============================================
+---------------Header Area CSS----------------
+============================================*/
+.header-top a {
+    color: #5b4060;
+    padding: 15px;
+    display: inline-block;
+}
+
+.header-top {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-left li {
+    display: inline-block;
+}
+
+.header-top .menu-trigger {
+    display: none;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.search-trigger i {
+    padding-left: 10px;
+}
+
+
+/*============================================
+-----------------Hero Area CSS----------------
+============================================*/
+.homepage-slider-wrap {
+    background-image: url('../img/header-bg.jpg')
+}
+
+.homepage-slider-wrap {
+    background-color: #EBD7D0;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.single-slide-item {
+    position: relative;
+}
+
+.single-slide-item img {
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    width: 700px;
+    margin-left: -350px;
+}
+
+.single-item-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+
+.homepage-slider-wrap div {
+    height: 100%;
+}
+
+.single-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15%;
+    font-family: codelight;
+    font-size: 120px;
+    color: #E45189;
+    line-height: 100px;
+}
+
+.single-item-tablecell strong {
+    font-style: italic;
+}
+
+.single-item-tablecell p {font-weight: 500;text-transform: uppercase;}
+
+.slide-alternative-color {
+    color: #75B2C7;
+}
+
+
+
+/*============================================
+----------------Season Area CSS---------------
+============================================*/
+
+.season-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.season-menu li {
+    float: left;
+    width: 30%;
+    background: #EDF2E9;
+    font-size: 50px;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.season-menu li a {
+    display: block;
+    padding: 170px 30px 30px;
+    text-align: right;
+    color: #5b4060;
+}
+
+.season-menu li:nth-child(2) a {
+    color: #E45189;
+}
+
+.season-menu li:nth-child(2) {
+    background-color: #F2E5E6;
+    font-weight: bold;
+}
+
+.season-menu li:nth-child(3) {
+    background-color: #F6F2E7;
+}
+
+.season-menu li:nth-child(4) {
+    background-color: #EDF4F7;
+    margin-left: -1px;
+}
+
+.season-menu li:nth-child(4) a {
+    text-align: left;
+}
+
+.season-menu li:nth-child(2),.season-menu li:nth-child(3) {
+    width: 20%;
+}
+
+.season-menu li:hover {
+    opacity: .6;
+}
+
+
+/*============================================
+----------------Product Area CSS--------------
+============================================*/
+.product-bd-1 {
+    background-image: url('../img/product-01.png')
+}
+
+.product-bd-2 {
+    background-image: url('../img/product-02.png')
+}
+
+.product-bd-3 {
+    background-image: url('../img/product-03.png')
+}
+
+.product-bd-4 {
+    background-image: url('../img/product-04.png')
+}
+
+.product-bd-5 {
+    background-image: url('../img/product-05.png')
+}
+
+.product-bd-6 {
+    background-image: url('../img/product-06.png')
+}
+
+.product-bd-7 {
+    background-image: url('../img/product-07.png')
+}
+
+.product-bd-8 {
+    background-image: url('../img/product-08.png')
+}
+
+.product-bd-9 {
+    background-image: url('../img/product-09.png')
+}
+
+.product-bd-10 {
+    background-image: url('../img/product-10.png')
+}
+
+
+/*============================================
+----------Product Promotion Area CSS----------
+============================================*/
+
+
+
+/*============================================
+----------------Brands Area CSS---------------
+============================================*/
+
+
+
+/*============================================
+----------------Footer Area CSS---------------
+============================================*/

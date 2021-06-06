@@ -1,0 +1,156 @@
+/*=======================
+
+Master Stylesheet
+------------------
+
+Tamplate Name :
+Author :
+Author URL :
+Description :
+Version :
+Tags :
+
+======================*/
+
+/*#####################
+----Table of Content---
+-----------------------
+
+01.Typography CSS
+02.Header Area CSS
+03.Hero Area CSS
+04.Season Area CSS
+05.Product Area CSS
+06.Product Promotion Area CSS
+07.Brands Area CSS
+08.Footer Area CSS
+09.......... CSS
+#######################*/
+
+/*============================================
+----------------Typography CSS----------------
+============================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-right: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus, input:focus, textarea:focus, button:focus, { 
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-family: 'codeLight', sans-serif;
+    
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/*============================================
+---------------Header Area CSS----------------
+============================================*/
+
+
+
+/*============================================
+-----------------Hero Area CSS----------------
+============================================*/
+.homepage-slider-wrap {
+    background-image: url('../img/header-bg.jpg')
+}
+
+
+
+/*============================================
+----------------Season Area CSS---------------
+============================================*/
+
+
+
+/*============================================
+----------------Product Area CSS--------------
+============================================*/
+.product-bd-1 {
+    background-image: url('../img/product-01.png')
+}
+
+.product-bd-2 {
+    background-image: url('../img/product-02.png')
+}
+
+.product-bd-3 {
+    background-image: url('../img/product-03.png')
+}
+
+.product-bd-4 {
+    background-image: url('../img/product-04.png')
+}
+
+.product-bd-5 {
+    background-image: url('../img/product-05.png')
+}
+
+.product-bd-6 {
+    background-image: url('../img/product-06.png')
+}
+
+.product-bd-7 {
+    background-image: url('../img/product-07.png')
+}
+
+.product-bd-8 {
+    background-image: url('../img/product-08.png')
+}
+
+.product-bd-9 {
+    background-image: url('../img/product-09.png')
+}
+
+.product-bd-10 {
+    background-image: url('../img/product-10.png')
+}
+
+
+/*============================================
+----------Product Promotion Area CSS----------
+============================================*/
+
+
+
+/*============================================
+----------------Brands Area CSS---------------
+============================================*/
+
+
+
+/*============================================
+----------------Footer Area CSS---------------
+============================================*/
